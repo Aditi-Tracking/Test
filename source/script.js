@@ -15542,7 +15542,7 @@ async function goSaveMark(answerId, attemptId, maxMark) {
 
     const cached = _goAllAttempts.find(a => a.id === attemptId);
     if (cached) cached.score = newScore;
-    if (savedEl) { savedEl.style.display = 'inline'; setTimeout(() => { savedEl.style.display = 'none'; goRenderList(); }, 1500); }
+    if (savedEl) { savedEl.style.display = 'inline'; setTimeout(() => { savedEl.style.display = 'none'; }, 1500); }
   } catch(e) {
     alert('Error saving: ' + e.message);
   }

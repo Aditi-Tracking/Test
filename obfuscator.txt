@@ -1,0 +1,8 @@
+- main folder mein js file ke obfusator code krega vo encrypted taki html uss main folder ke js ko run kre.
+
+- aagar muje edit krna hai js mein too ek new folder create krna hoga usme real js ka code hoga aagar kuch edit krna hai too kr sakte hai
+
+lekin phir edit kr ke terminal mein (javascript-obfuscator source/script.js --output script.js --compact true --string-array true --string-array-encoding base64 --self-defending true) yee code dalna hoga ki vo convert karega js code ko
+aur phir new converted obfusator js ko push kro repo pe 
+
+
